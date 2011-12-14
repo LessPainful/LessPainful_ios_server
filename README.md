@@ -27,7 +27,7 @@ Preparing your application.
 ---------------------------
 
 To use LessPainful for iOS with your app, you must create a new target
-for your app. This target links with a number of frameworks, as
+for your app. This target links with a couple of frameworks, as
 described here.
 
 *Note*: it is important that you create a separate target as a copy the target you usually use when distributing you app to your users. Don't link with our framework in your production app - this may cause app rejection by Apple since we are using private APIs.
@@ -54,9 +54,9 @@ This screenshot is a reference for you build settings.
 
 ### Linking the test target with Frameworks:
 
-Open your application project and the LPSimpleExample project in Xcode. Expand the Frameworks folder in both projects.
+Open your application project and the LPSimpleExample sample project in Xcode. Expand the Frameworks folder in both projects.
 
-You must link with the frameworks listed below. The easiest way is to simply drag the frameworks from the LPSimpleExample project to your Frameworks folder. Notice that our framework is named `"server.framework"` and not iLessPainfulServer.framework, as in the example.
+You must link with the frameworks listed below. The easiest way is to simply drag the frameworks from the LPSimpleExample project to your Frameworks folder. Notice that our framework is named `"server.framework"` and not iLessPainfulServer.framework, as in the graphical example.
 
 Select only the frameworks illustrated below, and make sure that (i) `Copy items into destination group's folder (if needed)` is not checked and (ii) only your "-LP "
  target is checked in `Add to targets`
