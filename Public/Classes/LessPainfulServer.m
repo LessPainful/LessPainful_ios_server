@@ -48,11 +48,11 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
         PlaybackRoute *pr =[PlaybackRoute new];
         [LPRouter addRoute:pr forPath:@"/play"];
         [pr release];
-        
-        ScreencastRoute *scr = [ScreencastRoute new];
-        [LPRouter addRoute:scr forPath:@"/screencast"];
-        [scr release];
-        
+//        
+//        ScreencastRoute *scr = [ScreencastRoute new];
+//        [LPRouter addRoute:scr forPath:@"/screencast"];
+//        [scr release];
+//        
 
 		_httpServer = [[[HTTPServer alloc]init] retain];
 		
